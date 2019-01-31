@@ -12,4 +12,5 @@ services:
     restart: unless-stopped
     volumes:
       - /home/user/browser/root:/browser/root
-      - /home/user/browser/data:/browser/data
+      - /home/user/browser/branding:/browser/branding
+      - /home/user/browser/database.db:/browser/database.db

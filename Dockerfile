@@ -18,8 +18,7 @@ WORKDIR /browser
 
 COPY --chown=browser:browser config.json .
 
-RUN mkdir root data && \
-filebrowser -c config.json config init
+RUN mkdir root branding
 
 EXPOSE 8080
 

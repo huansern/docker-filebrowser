@@ -3,6 +3,6 @@
   "port": 8080,
   "baseURL": "/",
   "root": "/browser/root",
-  "database": "/browser/data/database.db",
+  "database": "/browser/database.db",
   "log": "stdout"
 }
